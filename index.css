@@ -22,6 +22,7 @@ body{
     width: 4rem;
 }
 .header .links{
+    margin-top: 2.5rem;
     display: flex;
 }
 .header .links div a{
@@ -61,9 +62,6 @@ body{
     width: 70%;
     background-color: var(--header_blue);
 }
-.event_subcontent{
-    padding: 3rem 0rem;
-}
 .event_s_i{
     text-decoration: none;
     color: black;
@@ -71,6 +69,9 @@ body{
 /* h2 */
 .e_n{
     font-weight: 300;
+}
+.eh_info div {
+    padding: 0.1rem;
 }
 .e_d, .e_l, .e_a{
     padding: 0.2rem;
@@ -87,6 +88,15 @@ body{
 /*-------------------------------------------------------- EVENT PAGE -------------------------------------------------------*/
 .event_content{
     margin: 0rem 7rem;
+}
+.event_subcontent{
+    padding: 1rem 0rem;
+}
+.event_subcontent .e_sc_div{
+    padding-bottom: 1rem;
+}
+.e_sc_div div{
+    padding: 0.2rem;
 }
 .float_right{
     float: right;
@@ -107,6 +117,7 @@ body{
     background-color: var(--img_color);
 }
 .e_head_img{
+    margin: 0.5rem;
     width: 3rem;
     height: 3rem;
     background-color: var(--img_color);
