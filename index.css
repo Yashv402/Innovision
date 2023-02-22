@@ -52,6 +52,12 @@ h1{
     width: 82rem;
     background-color: var(--img_color);
 }
+.map_main_img{
+    height: 28rem;
+    width: 82rem;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
 /*-------------------------------------- FESTS ---------------------------------*/
 .events{
     padding: 2rem;
@@ -138,14 +144,25 @@ h1{
 }
 /*---------------------------------- SIGN UP PAGE ------------------------------------*/
 /*-------------------------- content -------------------------*/
-
+.signup_form{
+    margin: 0rem 7rem;
+}
 .grid_form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
 }
-.signup .text_inline{
+.input_img{
+    padding: 3rem 0rem;
 }
-
+.input_txt{
+}
+input{
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+.text_inline div{
+   padding: 0.5rem 0rem; 
+}
 
 
 /*---------------------------------- LOG IN PAGE ------------------------------------*/
@@ -172,6 +189,28 @@ h1{
     color: var(--img_color);
     text-decoration: none;
     font-size: 7px;
+}
+/*---------------------------------- EVENT REGISTERATION PAGE ------------------------------------*/
+.e_d{
+    display: grid;
+}
+.text_inline1{
+    width: 100%;
+    grid-template-columns: repeat(1,fr);
+}
+.text_inline2{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+}
+.text_inline2 input{
+    width: 50%;
+    grid-template-columns: repeat(2,fr);
+}
+.text_inline3{
+    grid-template-columns: repeat(3,fr);
+}
+.text_inline4{
+    grid-template-columns: repeat(4,fr);
 }
 /*----------------------------------------------- FOOTER ---------------------------------------*/
 .footer{
