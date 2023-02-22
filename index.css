@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    --img_color: rgb(218, 218, 218);
+    --img_color: rgb(139, 138, 138);
     --header_blue: #9abdff;
     --text-color:black;
     --subheading-color:black;
@@ -9,6 +9,12 @@ body{
 }
 .content_body{
     margin: 0rem 7rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 0.5rem;
 }
 /*--------------------------------------- HEADER ------------------------*/
 .header{
@@ -130,12 +136,44 @@ body{
 .e_h2{
     font-weight: 100;
 }
+/*---------------------------------- SIGN UP PAGE ------------------------------------*/
+/*-------------------------- content -------------------------*/
+
+.grid_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.signup .text_inline{
+    display: inline;
+}
+
+
+
 /*---------------------------------- LOG IN PAGE ------------------------------------*/
 /*-------------------------- content -------------------------*/
 .login_form{
     margin: 3rem 7rem;
 }
+.login_form .login_heading{
+    font-weight: 200;
+    font-size: 2rem;
+}
+.login_form .from_divs{
+    /* font-size: 1rem; */
+}
+.input_txt{
 
+    /* font-size: 10px; */
+}
+.login_form .small_text{
+    font-size: 7px;
+    color: var(--img_color);
+}
+.login_form .small_text a{
+    color: var(--img_color);
+    text-decoration: none;
+    font-size: 7px;
+}
 /*----------------------------------------------- FOOTER ---------------------------------------*/
 .footer{
     height: 20rem;
